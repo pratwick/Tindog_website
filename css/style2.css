@@ -1,0 +1,261 @@
+
+
+body{
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;  
+}
+
+
+/* Section */
+.coloured-section{
+    background-color: #ff4c68;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* section */
+
+
+/* !!!!!!!!!!!!!   Title section starts    !!!!!!!!!!!! */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+ .main-head{
+    font-size: 3.5rem;
+ }
+
+.container-fluid {
+    padding: 3% 15% 7% 15%;
+}
+
+/* Navigation-bar */
+
+
+.navbar{
+   padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-link{
+    font-size:larger;
+    font-family: 'Itim', cursive;
+}
+
+
+ /* Download-button */
+
+ .download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.btn-lg{
+    line-height: 1.2;
+}
+
+/* Iphone-Image */
+
+.phone-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+/* !!!!!!!!!!!!!!!! Title section ends !!!!!!!!!!!!!!!!! */
+
+
+/* !!!!!!!!!!!!!!!! features section Starts !!!!!!!!!!!!*/
+
+#features {
+    padding: 7% 16%;
+    position: relative;
+  /*  z-index: 1;  */          /*here if we do not give the z-index = -1 then also we get the desired result according to z-index table..*/
+    background-color: white;
+}
+
+.feature-head{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-para{
+    color: #8f8f8f;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+
+/* !!!!!!!!!!  Features section Start !!!!!!!!!!! */
+
+/* !!!!!!!!!!  Testimonials section starts !!!!!!!!!!!*/
+
+
+#testimonials{
+    background-color:#ef8172;   
+    color: #fff;
+}
+
+.testimonial-head{
+    font-size:2.5rem ;
+}
+
+.testimonial-image{
+    width:12%;
+    border-radius: 100%;
+    margin: 18px;
+}
+
+.carousel-item{
+    padding: 8% 15%;
+}
+
+/*!!!!!!!!  Testimonial Section Ends !!!!!!!!!*/ 
+
+
+/* !!!!!!! Press-section !!!!!!!*/
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 15px 30px 15px;
+}
+
+/*!!!!!!!! press section ends !!!!!!!!!*/
+
+
+/*!!!!!!!! Pricing Section starts !!!!!!!!*/
+
+#pricing {
+    padding: 5% 8% 5% 8%;
+}
+
+.pricing-container {
+    margin-top: 30px;
+}
+
+.pricing-main-head{
+    font-size:2.5rem ;
+}
+
+.pricing-para{
+    color: rgb(90, 86, 86);
+}
+
+.pricing-head-2{
+    font-size:2.5rem ;
+}
+.pricing-head-3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+/* !!!!!!!!Pricing Section ends !!!!!!! */ 
+
+
+
+/* @mediaQuery */
+@media (max-width: 992px)
+{
+   #title{
+       text-align: center;
+   }
+   
+   .phone-img {
+    position: static;
+    transform: rotate(0deg);
+    height: 90%;
+    width: 44%;
+    padding-top: 70px;
+}
+   
+}
+
+
+/* !!!!!!!! Call to Action starts !!!!!!!!! */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 8% 10% 8%;
+}
+
+.cta-head {
+    font-size: 3rem;
+    color: white;
+    padding: 0px 14% 5% 14%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ctn-lg {
+    font-size: 22px;
+    margin: 6px;
+}
+
+/* !!!!!!!  Call To Action section ends  !!!!!!!! */ 
+
+
+
+/* !!!!!!! Footer stars !!!!!!! */
+
+#footer{
+    height: 190px;
+    color: white;
+}
+
+.foot-icon{
+    color:black;
+    padding:6px;
+    font-size: 20px;
+}
+
+.foot-para {
+    padding: 15px 5px 40px 5px;
+}
+
+.footer-icon-container{
+    padding-top: 85px;
+}
+
+
+/*  !!!!! Footer Section end !!!!!  */
+
